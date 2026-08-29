@@ -27,6 +27,17 @@ const projects = [
   },
   {
     id: 3,
+    slug: "learning-quest",
+    title: "READ E-COM: LEARNING QUEST",
+    subtitle: "Gamified Learning for",
+    name: "Learning Quest",
+    tagline: "Teacher-Configured Quiz & Puzzle Learning Game",
+    description:
+      "A gamified quiz-based learning platform built for classrooms — enabling teachers to design multi-compartment puzzle challenges and students to progress by scanning QR codes and solving each stage.",
+    image: "/images/learningquest/carousel/learningquest-1.png",
+  },
+  {
+    id: 4,
     slug: "coming-soon",
     title: "COMING SOON",
     subtitle: "Next project",
