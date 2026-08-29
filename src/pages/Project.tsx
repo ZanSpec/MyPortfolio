@@ -710,11 +710,11 @@ const Project = () => {
             )}
 
             {/* Image */}
-            <div className="overflow-hidden rounded-lg shadow-2xl">
+            <div className="overflow-hidden rounded-lg shadow-2xl flex items-center justify-center">
               <img
                 src={project.gallery[lightboxIndex]}
                 alt={`${project.title} gallery ${lightboxIndex + 1}`}
-                className="w-full block"
+                className="max-w-full max-h-[85vh] w-auto h-auto object-contain block"
                 draggable={false}
                 style={{
                   transform: `scale(${zoom}) translate(${pan.x / zoom}px, ${pan.y / zoom}px)`,
