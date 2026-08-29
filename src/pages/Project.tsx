@@ -594,12 +594,12 @@ const Project = () => {
                 <div
                   key={i}
                   onClick={() => setLightboxIndex(i)}
-                  className="group relative aspect-video rounded-lg overflow-hidden cursor-pointer border border-border hover:border-foreground/30 transition-all duration-300"
+                  className="group relative rounded-lg overflow-hidden cursor-pointer border border-border hover:border-foreground/30 transition-all duration-300 bg-secondary/20"
                 >
                   <img
                     src={src}
                     alt={`${project.title} gallery ${i + 1}`}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="w-full h-auto max-h-[75vh] object-contain mx-auto transition-transform duration-500 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-all duration-300 flex items-center justify-center">
                     <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center gap-2">
