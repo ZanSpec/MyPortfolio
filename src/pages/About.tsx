@@ -239,7 +239,7 @@ const About = () => {
                     </p>
                   </div>
                   <span className="text-muted-foreground/40 text-xs whitespace-nowrap">
-                    Apr 2026 — Jul 2026
+                    Apr 2026 — Aug 2026
                   </span>
                 </div>
                 <p className="text-muted-foreground text-xs leading-relaxed mt-3 max-w-lg">
